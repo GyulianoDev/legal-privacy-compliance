@@ -1,6 +1,6 @@
 # Legal Privacy Compliance
 
-A skill for analyzing projects and preparing terms, policies and inventories with technical evidence, official research and explicit review questions. Supporting documentation is in Portuguese; scripts and filenames are in English.
+A skill for analyzing projects and preparing terms, policies and inventories with technical evidence, official research and explicit review questions. All Markdown on this branch is in English; scripts and filenames are also in English.
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Agent Skills](https://img.shields.io/badge/Agent_Skills-SKILL.md-5865F2?style=for-the-badge)
@@ -48,7 +48,7 @@ You need Python 3.10+ and your chosen agent. Open a terminal in this folder, whi
 To get the package from GitHub:
 
 ```sh
-git clone --branch ptbr https://github.com/GyulianoDev/legal-privacy-compliance.git
+git clone --branch en https://github.com/GyulianoDev/legal-privacy-compliance.git
 cd legal-privacy-compliance
 ```
 
@@ -123,7 +123,7 @@ python scripts/verify-consistency.py --profile ../private-scan/project-profile.j
 python scripts/export-documents.py ../private-drafts/privacy-policy.md --format html --out ../privacy-preview.html
 ```
 
-Outputs must be new. The auditor returns `2` for `HIGH/CRITICAL` findings, `0` for other results and an error for invalid input. Zero does not certify compliance. The generator always keeps `status: draft` and `publishable: false`; there is no automatic approval shortcut. The example intentionally leaves sources empty and review questions visible.
+Outputs must be new. The auditor returns `2` for `HIGH/CRITICAL` findings, `0` for other results and an error for invalid input. Zero does not certify compliance. The generator always keeps `status: draft` and `publishable: false`; there is no automatic approval shortcut. The example intentionally leaves sources empty and review questions visible. The fictional brief is in English on both branches; document language follows the brief's `language` field, not the branch.
 
 The [workflows](workflows/document-generation.md) explain the brief, applicability matrix, research, questions, review and updates. The agent also delivers an internal report, dated sources, unresolved questions and a justified changelog. The incident procedure is internal.
 
@@ -151,7 +151,7 @@ legal-privacy-compliance/
 └── tests/fixtures/      # ten static scenarios
 ```
 
-The repository keeps `ptbr` as its default branch and `en` for English READMEs and explanatory comments. Paths, implementation and PDFs are identical across both branches. The instructions and references were requested in Portuguese for this skill and remain shared. Switching languages does not create different filenames.
+The repository keeps `ptbr` as its default branch and `en` with all Markdown and explanatory comments in English, including instructions, templates, references, workflows and the changelog. Paths, implementation, JSON examples, interface metadata and PDFs are identical across both branches. PDFs retain their original language. Switching languages does not create different filenames.
 
 ---
 

@@ -2,7 +2,7 @@
   "product": "Demo Notes (fictional)",
   "version": "0.1.0",
   "updated_at": "2026-11-05",
-  "language": "pt-BR",
+  "language": "en",
   "identity": {
     "legal_name": null,
     "privacy_contact": null
@@ -13,17 +13,17 @@
   "documents": [
     {
       "type": "privacy-policy",
-      "title": "Política de Privacidade — exemplo fictício",
+      "title": "Privacy Policy — fictional example",
       "applicable": true,
-      "applicability_reason": "Exercício fictício com formulário de contato; confirmar operações reais antes de adaptar.",
+      "applicability_reason": "Fictional contact-form exercise; confirm actual operations before adapting it.",
       "sections": [
         {
-          "heading": "Sobre este rascunho",
-          "body": "Este exemplo mostra o formato de entrada do gerador. Não representa uma empresa ou política aprovada."
+          "heading": "About this draft",
+          "body": "This example shows the generator input format. It does not represent a company or an approved policy."
         },
         {
-          "heading": "Tratamentos a confirmar",
-          "body": "Há um indício de campo de e-mail no código fictício. Finalidade, destinatários, base legal e retenção: REQUIRES_HUMAN_REVIEW."
+          "heading": "Processing to confirm",
+          "body": "The fictional code contains an email-field indicator. Purpose, recipients, legal basis and retention: REQUIRES_HUMAN_REVIEW."
         }
       ],
       "source_ids": [],
