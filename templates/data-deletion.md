@@ -1,10 +1,10 @@
-# Roteiro: Retenção e Exclusão
+# Outline: Retention and Deletion
 
-1. Escopo, controlador e canal para pedidos.
-2. Tabela por operação: categoria, finalidade, critério/prazo confirmado, evento inicial, justificativa normativa/contratual, responsável, mecanismo de exclusão e exceções.
-3. Encerramento de conta versus eliminação: identidade proporcional, análise, execução e confirmação.
-4. Cópias: banco ativo, arquivos, logs, backups, réplicas, fornecedores, prompts/histórico, vetores e exportações sob controle de terceiros.
-5. Obrigações de guarda, exercício de direitos, bloqueio/anonimização e comunicação de limites ao titular.
-6. Evidência de procedimento e testes com dados fictícios, versão e responsável pela manutenção.
+1. Scope, controller and request channel.
+2. Table per operation: category, purpose, confirmed criterion/period, starting event, legal/contractual justification, responsible party, deletion mechanism and exceptions.
+3. Account closure versus erasure: proportionate identity verification, assessment, execution and confirmation.
+4. Copies: active databases, files, logs, backups, replicas, providers, prompts/history, vectors and exports controlled by third parties.
+5. Preservation obligations, exercising rights, blocking/anonymization and communication of limits to the data subject.
+6. Procedure evidence and tests with fictional data, version and maintenance owner.
 
-Prazo desconhecido fica `REQUIRES_HUMAN_REVIEW`; não usar “30 dias” por conveniência. Não executar exclusões nem consultar produção para escrever o roteiro.
+Unknown periods remain `REQUIRES_HUMAN_REVIEW`; do not use “30 days” for convenience. Do not execute deletions or query production to write this outline.

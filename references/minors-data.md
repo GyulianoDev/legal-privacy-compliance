@@ -1,9 +1,9 @@
-# Crianças e adolescentes
+# Children and adolescents
 
-Investigue público declarado e uso provável, faixa etária, recursos, riscos, contas familiares, anúncios, perfilamento e canais de responsáveis. O campo `birthDate` ou a palavra `kids` é indício, não prova suficiente de enquadramento.
+Investigate the stated audience and likely use, age groups, features, risks, family accounts, advertising, profiling and guardian channels. A `birthDate` field or the word `kids` is an indicator, not sufficient proof of applicability.
 
-Consulte art. 14 da LGPD, ECA, Enunciado ANPD 1/2023 e legislação digital vigente. Melhor interesse precisa ser demonstrado no caso concreto; não escolher consentimento parental para todas as idades e operações por padrão.
+Consult LGPD Article 14, ECA, ANPD Statement 1/2023 and effective digital legislation. Best interests must be demonstrated in the actual case; do not choose parental consent for all ages and operations by default.
 
-A página oficial do ECA Digital informa legislação posterior aos PDFs locais, incluindo Lei 15.211/2025, alterações e regulamentação de 2026. Verifique alcance, vigência, deveres e orientações atuais, inclusive verificação de idade. Identifique se uma orientação ainda é preliminar.
+ANPD's official Digital ECA page describes legislation newer than the local PDFs, including Law 15.211/2025, amendments and 2026 regulations. Check scope, effective status, duties and current guidance, including age verification. Identify guidance that remains preliminary.
 
-Peça revisão especializada antes de consolidar elegibilidade, verificação de idade, consentimento, tratamento de dados sensíveis, publicidade e mecanismos parentais. Não recomende coleta excessiva de documentos como solução automática. Redija avisos acessíveis ao público real e não apenas cláusula de proibição de menores que contradiz o produto.
+Request specialist review before finalizing eligibility, age verification, consent, sensitive-data processing, advertising and parental mechanisms. Do not recommend excessive document collection as an automatic solution. Write notices accessible to the actual audience rather than only an age prohibition contradicting the product.

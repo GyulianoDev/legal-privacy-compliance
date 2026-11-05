@@ -1,13 +1,13 @@
-# Roteiro interno: Resposta a Incidentes
+# Internal Outline: Incident Response
 
-Documento interno; não publicar detalhes operacionais sensíveis junto às políticas.
+Internal document; do not publish sensitive operational details alongside public policies.
 
-1. Escopo, responsáveis reais, substitutos e canais internos confirmados.
-2. Detecção, registro mínimo, preservação de evidências e contenção autorizada; separar incidente suspeito e confirmado.
-3. Avaliação: dados, titulares, escala, sensibilidade, sistemas afetados, consequências e critérios atuais de risco/dano relevante.
-4. Obrigações de controlador, operador e suboperadores; escalonamento e apoio jurídico/encarregado.
-5. Comunicação à ANPD e titulares quando aplicável: norma vigente, marco inicial, prazo verificado, informações e complementação. Registrar motivo fundamentado de comunicar ou não.
-6. Recuperação, correção, acompanhamento, registro da decisão e lições observadas.
-7. Simulação com dados fictícios, atualização e aprovação interna.
+1. Scope, actual responsible people, substitutes and confirmed internal channels.
+2. Detection, minimal recording, evidence preservation and authorized containment; separate suspected and confirmed incidents.
+3. Assessment: data, data subjects, scale, sensitivity, affected systems, consequences and current relevant risk/harm criteria.
+4. Controller, processor and subprocessor obligations; escalation and legal/data protection officer support.
+5. ANPD and data-subject notification where applicable: effective rule, starting event, verified deadline, information and supplementation. Record a reasoned decision to notify or not.
+6. Recovery, remediation, follow-up, decision records and observed lessons.
+7. Simulation using fictional data, updates and internal approval.
 
-Não inventar prazo, equipe 24h ou capacidade forense. Não executar contenção, notificar terceiros ou expor segredos a partir desta skill sem instrução específica e autorização.
+Do not invent deadlines, a 24-hour team or forensic capability. Do not contain incidents, notify third parties or expose secrets through this skill without specific instructions and authorization.

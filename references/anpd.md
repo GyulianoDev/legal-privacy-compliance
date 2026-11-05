@@ -1,15 +1,15 @@
-# ANPD: rota de pesquisa
+# ANPD research route
 
-Abra o catálogo oficial atual e os atos completos, incluindo alterações, retificações e anexos. Veja [fontes](source-registry.md). Uma página de catálogo confirma a existência/listagem do ato, não substitui a leitura de um prazo ou requisito.
+Open the current official catalog and complete acts, including amendments, corrections and annexes. See [sources](source-registry.md). A catalog page confirms an act's existence/listing; it does not replace reading a deadline or requirement.
 
-| Tema | Ponto de partida | O que confirmar |
+| Topic | Starting point | What to confirm |
 | --- | --- | --- |
-| Pequeno porte | Resolução CD/ANPD 2/2022, com alterações | Enquadramento, exclusões, alto risco, simplificações e deveres preservados. Não tratar como dispensa geral da LGPD. |
-| Incidentes | Resolução CD/ANPD 15/2024 | Quem comunica, critérios de risco/dano relevante, marco inicial, prazo, conteúdo, complementação e registro. Não copiar prazo de outro regime. |
-| Encarregado | Resolução CD/ANPD 18/2024 | Designação, atribuições, publicidade do contato e exceções efetivamente aplicáveis. Não inventar nome de encarregado. |
-| Transferência internacional | Resolução CD/ANPD 19/2024 e retificações | Mecanismos, cláusulas-padrão, papéis, transparência e transferências posteriores. |
-| Adequação | Decisões atuais, incluindo Resolução 32/2026 listada no catálogo | Escopo exato, vigência e limitações. Não estender adequação a países/serviços não cobertos. |
-| Menores | Enunciado 1/2023, ECA Digital e atos posteriores | Melhor interesse, hipótese legal, idade e mecanismos proporcionais; orientação preliminar não é regulamento definitivo. |
-| Legítimo interesse e cookies | Guias orientativos | Recomendações e exemplos devem ser distinguidos de obrigações legais. Verificar edição e erratas. |
+| Small agents | Resolution CD/ANPD 2/2022, as amended | Eligibility, exclusions, high risk, simplifications and preserved duties. Do not treat this as a general LGPD exemption. |
+| Incidents | Resolution CD/ANPD 15/2024 | Who notifies, relevant risk/harm criteria, starting event, deadline, content, supplementation and records. Do not copy another regime's deadline. |
+| Data protection officer | Resolution CD/ANPD 18/2024 | Appointment, duties, contact disclosure and actually applicable exceptions. Do not invent an officer's name. |
+| International transfers | Resolution CD/ANPD 19/2024 and corrections | Mechanisms, standard clauses, roles, transparency and onward transfers. |
+| Adequacy | Current decisions, including Resolution 32/2026 listed in the catalog | Exact scope, effective status and limits. Do not extend adequacy to uncovered countries/services. |
+| Minors | Statement 1/2023, Digital ECA and subsequent acts | Best interests, legal basis, age and proportionate mechanisms; preliminary guidance is not a final regulation. |
+| Legitimate interest and cookies | Guidance documents | Distinguish recommendations/examples from legal obligations. Check editions and errata. |
 
-A classificação `CRITICAL/HIGH/MEDIUM/LOW` usada na auditoria é triagem interna. Não atribuí-la à ANPD, nem convertê-la em multa ou infração confirmada. Registre `REQUIRES_HUMAN_REVIEW` se texto completo, vigência ou enquadramento não foi confirmado.
+The audit's `CRITICAL/HIGH/MEDIUM/LOW` classification is internal triage. Do not attribute it to ANPD or turn it into a confirmed fine/violation. Record `REQUIRES_HUMAN_REVIEW` when full text, effective status or applicability is unconfirmed.

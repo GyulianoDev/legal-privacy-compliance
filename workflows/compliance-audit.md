@@ -1,24 +1,24 @@
-# Auditoria de consistência
+# Consistency audit
 
-O verificador procura padrões restritos e suspeitas; não detecta todos os estilos
-de escrita nem valida a interpretação de uma norma. Leia cada documento inteiro e
-confirme escopo de negações antes de chamar um achado de contradição demonstrada.
-Comparações com código preparado são questões a confirmar, não acusações.
+The verifier looks for narrow patterns and potential issues; it does not detect
+every writing style or validate legal interpretation. Read each complete document
+and confirm the scope of denials before describing a finding as a demonstrated
+contradiction. Comparisons with prepared code raise questions, not accusations.
 
-Avalie coleta de IP/logs, terceiros, analytics, uploads, IA, exclusão, backups,
-cancelamento, armazenamento brasileiro, criptografia ponta a ponta e uso para
-treinamento. Falta de evidência não demonstra que uma garantia seja verdadeira.
+Assess IP/log collection, third parties, analytics, uploads, AI, deletion, backups,
+cancellation, Brazil-only storage, end-to-end encryption and training use. Missing
+evidence does not establish that a guarantee is true.
 
-Cada achado: problema, gravidade interna (`CRITICAL`, `HIGH`, `MEDIUM`, `LOW`,
-`INFORMATIONAL`), documento/localização, evidência arquivo/linha, risco, recomendação
-e revisão humana. Essas classificações não são categorias oficiais da ANPD.
+Each finding: problem, internal severity (`CRITICAL`, `HIGH`, `MEDIUM`, `LOW`,
+`INFORMATIONAL`), document/location, file/line evidence, risk, recommendation and
+human review. These classifications are not official ANPD categories.
 
-Cruze termos, privacidade, cookies, inventário, contratos e fluxos. Valide fontes
-legais no registro (incluindo artigo e vigência), campos pendentes, versão, contato,
-proporcionalidade das cláusulas e compatibilidade com direitos indisponíveis.
-Teste direitos/cookies só em ambiente autorizado; nunca acesse produção por inferência.
+Cross-check terms, privacy, cookies, inventories, contracts and procedures. Validate
+legal sources in the registry, including provisions/effective status, unresolved
+fields, versions, contacts, proportionality and mandatory rights. Test rights/cookie
+procedures only in an authorized environment; never infer permission for production.
 
-Uma política de cookies não bloqueia tags. Uma página de exclusão não demonstra
-eliminação no banco, provedor ou backup. Um botão de consentimento não demonstra
-liberdade, especificidade, registro e revogação. Registre implementação observada
-e mudanças propostas em itens separados. Não implemente mudanças por este modo.
+A cookie policy does not block tags. A deletion page does not demonstrate deletion
+in databases, providers or backups. A consent button does not demonstrate free,
+specific, recorded and revocable consent. Record observed implementation and
+proposed changes separately. Do not implement changes in this mode.

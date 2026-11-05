@@ -10,9 +10,7 @@ A skill for analyzing projects and preparing terms, policies and inventories wit
 
 ## 📌 About the Project
 
-The agent investigates the project, consults relevant PDFs, researches current legislation and writes the sections. Scripts support discovery, traceability, file generation and auditing. Regular expressions do not select legal bases or validate legal provisions.
-
-The package includes the **five supplied PDFs**, with English filenames, hashes, editions and limits on their use. The gov.br and Ministry of Defense examples are institutional references, not ready-to-use SaaS terms. See the [library analysis](references/pdf-library.md).
+The agent investigates the project, consults relevant PDFs, researches current legislation and writes the sections. Scripts support discovery, traceability, file generation and auditing.
 
 ---
 
@@ -42,6 +40,13 @@ Agent modes: `FULL` (default), `TOS`, `PRIVACY`, `COOKIES`, `AI`, `AUDIT`, `UPDA
 ---
 
 ## 🚀 Installation
+
+Copy this request into your agent to install the skill in your current project:
+
+```text
+Agent, install this skill in my environment so I can use it in my current project: https://github.com/GyulianoDev/legal-privacy-compliance
+Use the en branch and the project-level installation directory supported by this agent.
+```
 
 You need Python 3.10+ and your chosen agent. Open a terminal in this folder, which contains `SKILL.md`. Commands use `python`; use `python3` on systems where that is the executable name.
 
@@ -192,5 +197,3 @@ Delivery result: **26 tests, 25 passed and 1 skipped** because of missing Window
 - The package does not replace a lawyer/data protection officer, guarantee compliance or approve documents for publication.
 - Third-party PDFs retain attribution and do not receive the code's MIT license. Check permissions before public redistribution.
 - Locally checked: Python scripts on Windows, fixtures, schemas, installation/copying and library integrity. Discovery and full execution in the three clients, macOS/Linux and PDF/DOCX exports **have not yet been validated**. The [protocol](adapters/compatibility.md) explains how to test them.
-
-Useful next improvements: real discovery tests per client, configuration-specific parsers when a project needs them and export connectors with verified rendering. Expand only in response to an observed need.

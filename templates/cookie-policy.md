@@ -1,11 +1,11 @@
-# Roteiro: Política de Cookies
+# Outline: Cookie Policy
 
-Exigir inventário de tecnologias e análise de necessidade/base. Não concluir por presença de `localStorage`.
+Require a technology inventory and necessity/legal-basis analysis. Do not conclude from `localStorage` alone.
 
-1. Explicar cookies e equivalentes efetivamente usados em linguagem acessível.
-2. Tabela: nome/padrão, tecnologia, fornecedor/domínio, dados, finalidade, categoria, duração verificada, condição de ativação e como gerenciar.
-3. Distinguir funções necessárias, preferências, analytics e publicidade conforme finalidade real; não classificar todo SDK como necessário.
-4. Descrever aceitar/rejeitar/personalizar, revogar e alterar escolha por mecanismo existente ou identificar implementação pendente.
-5. Fornecer links úteis, versão e canal real. Não afirmar que nada carrega antes do aceite sem verificação técnica.
+1. Explain the cookies and equivalents actually used in accessible language.
+2. Table: name/pattern, technology, provider/domain, data, purpose, category, verified duration, activation condition and management procedure.
+3. Distinguish necessary functions, preferences, analytics and advertising by actual purpose; do not classify every SDK as necessary.
+4. Describe accepting/rejecting/customizing, withdrawing and changing choices through an existing mechanism, or identify missing implementation.
+5. Provide useful links, version and actual contact. Do not claim nothing loads before acceptance without technical verification.
 
-Quando depender de consentimento, gerar também especificação técnica de banner e testes do bloqueio. Política e banner proposto permanecem rascunhos até revisão e implementação autorizada.
+When processing relies on consent, also generate a technical banner specification and blocking tests. The policy and proposed banner remain drafts until review and authorized implementation.

@@ -1,12 +1,12 @@
-# Roteiro: Aviso de Consentimento
+# Outline: Consent Notice
 
-Exigir finalidade específica e análise de que consentimento é a hipótese adequada. Não usar para autorizar genericamente termos e toda coleta.
+Require a specific purpose and analysis showing consent is an appropriate legal basis. Do not use consent to generically authorize terms and all collection.
 
-- Quem solicita e por qual canal de contato.
-- Dados, finalidade determinada, destinatários e informação acessível necessária.
-- Escolha livre e destacada, consequências reais da recusa e separação de opções independentes.
-- Como registrar a manifestação e a versão do aviso sem coletar dados excessivos.
-- Como revogar e efeitos/limites legais, sem tornar a retirada mais difícil que a concessão.
-- Tratamento de menores e representação apenas após análise jurídica atual.
+- Who requests consent and through which contact channel.
+- Data, defined purpose, recipients and necessary accessible information.
+- Free and prominent choice, actual consequences of refusal and separate options for independent purposes.
+- How to record the manifestation and notice version without excessive collection.
+- How to withdraw, with legal effects/limits, without making withdrawal harder than granting consent.
+- Minors and representation only after current legal analysis.
 
-Entregar texto contextual e especificação de interface/registro. Não afirmar consentimento válido apenas porque há checkbox; verificar momento, clareza, liberdade e implementação.
+Deliver contextual text and an interface/recording specification. A checkbox alone does not establish valid consent; check timing, clarity, freedom and implementation.

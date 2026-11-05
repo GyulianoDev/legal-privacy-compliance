@@ -1,9 +1,9 @@
-# Transferências internacionais
+# International transfers
 
-Mapeie destinatário jurídico, país/região contratual e técnica, papel, categorias, finalidade, acesso remoto, suporte, suboperadores e transferências posteriores. Região de um banco não demonstra que logs, suporte, CDN, backups e IA permanecem no mesmo país.
+Map the legal recipient, contractual/technical country/region, role, categories, purpose, remote access, support, subprocessors and onward transfers. A database region does not establish that logs, support, CDN, backups and AI remain in the same country.
 
-Examine arts. 33–36 da LGPD, Resolução 19/2024, anexos/retificações e decisões atuais de adequação. Registre o mecanismo candidato e a evidência contratual ou normativa; não escreva “padrão internacional de segurança” como substituto do mecanismo. Não emitir cláusulas-padrão reescritas como se fossem o anexo oficial.
+Examine LGPD Articles 33–36, Resolution 19/2024, annexes/corrections and current adequacy decisions. Record the candidate mechanism and contractual/legal evidence; do not substitute an “international security standard” for a transfer mechanism. Do not present rewritten standard clauses as the official annex.
 
-Há decisão de adequação relativa à União Europeia listada pela ANPD em 2026. Confirme texto, alcance e condições antes de utilizá-la. Um fornecedor americano com região europeia não está automaticamente coberto por qualquer decisão.
+ANPD lists a 2026 adequacy decision concerning the European Union. Confirm text, scope and conditions before using it. A US provider using a European region is not automatically covered by any decision.
 
-Se o contrato e a localização não estiverem disponíveis, mantenha campos desconhecidos e peça confirmação agrupada. Para GDPR, UK GDPR ou leis estaduais dos EUA, investigue primeiro alcance territorial/material e eventual conflito. Não equipare LGPD e GDPR nem aplique SCC europeia como se fosse cláusula brasileira.
+If contracts and location are unavailable, keep fields unknown and group confirmation questions. For GDPR, UK GDPR or US state laws, first investigate territorial/material scope and potential conflicts. Do not equate LGPD with GDPR or apply European SCCs as Brazilian clauses.

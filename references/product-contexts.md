@@ -1,17 +1,17 @@
-# Perguntas por produto
+# Questions by product
 
-Leia apenas a linha aplicável e investigue o que não estiver documentado. Aceite “não sei”; registre a pendência em vez de inventar resposta.
+Read only the applicable row and investigate undocumented facts. Accept “I don't know”; record the question rather than inventing an answer.
 
-| Contexto | Caminhos a confirmar |
+| Context | Paths to confirm |
 | --- | --- |
-| Institucional / landing | Formulários, logs de hospedagem, fontes/CDN, incorporação de vídeo, analytics, cookies e contato. Não inventar cadastro ou pagamentos. |
-| Mobile / PWA | Permissões efetivamente solicitadas, identificadores, push, crash reports, SDKs, lojas, exclusão de conta e funcionamento offline. |
-| SaaS / ERP | Dados de conta versus dados tratados por cliente, isolamento de tenant, colaboradores, fiscal/folha, suboperadores, backups, exportação e encerramento. |
-| E-commerce / marketplace | Papéis de vendedor/plataforma, checkout, antifraude, entrega, arrependimento, avaliações, dados fiscais e destinatários. |
-| IA / chatbot / agente | Prompts, memória, ferramentas e ações, arquivos, embeddings, revisão, termos específicos e dados de terceiros nos inputs. |
-| Bot / comunidade | Plataforma de origem, permissões, mensagens/DMs, moderação, conteúdo de terceiros, menores e políticas da plataforma. |
-| API pública ou privada | Autenticação, logs, webhooks, rate limiting, dados recebidos/retornados, clientes operadores/controladores e uso proibido concreto. |
-| Financeiro / saúde | Enquadramento setorial, dados sensíveis, obrigação de guarda, decisões relevantes e regulador competente; encaminhar especialista. |
-| Internacional | Mercados efetivos, oferta/monitoramento, estabelecimentos, contratos e transferências; idioma não decide jurisdição. |
+| Institutional / landing | Forms, hosting logs, fonts/CDNs, embedded video, analytics, cookies and contact. Do not invent accounts or payments. |
+| Mobile / PWA | Actually requested permissions, identifiers, push, crash reports, SDKs, stores, account deletion and offline operation. |
+| SaaS / ERP | Account data versus data processed for customers, tenant isolation, employees, tax/payroll, subprocessors, backups, export and termination. |
+| E-commerce / marketplace | Seller/platform roles, checkout, antifraud, delivery, withdrawal, reviews, tax data and recipients. |
+| AI / chatbot / agent | Prompts, memory, tools/actions, files, embeddings, review, specific terms and third-party data in inputs. |
+| Bot / community | Origin platform, permissions, messages/DMs, moderation, third-party content, minors and platform policies. |
+| Public or private API | Authentication, logs, webhooks, rate limiting, received/returned data, controller/processor customers and concrete prohibited uses. |
+| Finance / health | Sectoral applicability, sensitive data, preservation obligations, relevant decisions and competent regulator; refer to a specialist. |
+| International | Actual markets, offering/monitoring, establishments, contracts and transfers; language does not determine jurisdiction. |
 
-Pergunte em blocos: (1) responsável/contato e público/território; (2) operações incertas, destinatários/regiões; (3) retenção/exclusão e regras comerciais. Não repetir respostas comprovadas nem solicitar tokens, documentos de identidade ou cópias de bases de produção.
+Group questions: (1) responsible party/contact and audience/territory; (2) uncertain operations, recipients/regions; (3) retention/deletion and commercial conditions. Do not repeat evidenced answers or request tokens, identity documents or production database copies.

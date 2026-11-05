@@ -1,11 +1,11 @@
-# Histórico
+# Changelog
 
 ## 1.0.0 — 2026-11-05
 
-- Núcleo Agent Skills com dez modos e roteamento de pesquisa, inventário, redação, auditoria e atualização.
-- Análise estática local e geração de rascunhos a partir de brief escrito pelo agente; evidências sem linhas de código ou valores de campos.
-- Nove roteiros documentais, quatro schemas e dez cenários fictícios.
-- Biblioteca dos cinco PDFs fornecidos, preservados por hash, com análise de edição e limites de aplicação.
-- Instalação autocontida e exportação local HTML/JSON; caminhos oficiais dos três agentes documentados.
+- Agent Skills core with ten modes and routing for research, inventories, drafting, auditing and updates.
+- Local static analysis and draft generation from agent-authored briefs; evidence without raw code lines or field values.
+- Nine document outlines, four schemas and ten fictional scenarios.
+- Library of the five supplied PDFs, preserved by hash, with edition analysis and applicability limits.
+- Self-contained installation and local HTML/JSON export; official paths for the three agents documented.
 
-Não há certificação jurídica nem alegação de validação de execução nos três agentes. Consultar README para verificações realizadas e limites.
+No legal certification or claim of validated execution in all three agents. See the README for completed checks and limitations.

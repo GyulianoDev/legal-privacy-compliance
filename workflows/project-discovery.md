@@ -1,26 +1,26 @@
-# Descoberta do projeto
+# Project discovery
 
-Faça leitura estática antes de perguntas. Localize `AGENTS.md`, manifests, modelos,
-rotas, telas, integrações, infraestrutura e políticas existentes. Não execute builds,
-instaladores, migrações ou scripts do projeto para descobrir seu comportamento.
+Perform static reading before asking questions. Locate `AGENTS.md`, manifests,
+models, routes, screens, integrations, infrastructure and existing policies. Do
+not run project builds, installers, migrations or scripts to discover behavior.
 
-O scanner aceita linguagens comuns e manifests, limita tamanho/quantidade, omite
-linhas brutas e ignora `.env*`, arquivos com nomes sensíveis, links e dependências.
-Esses filtros não garantem ausência de segredos em nomes de arquivo ou metadados:
-revise o relatório antes de compartilhar. Não imprima configurações para procurar
-tokens; use nomes de variáveis e contratos públicos dos serviços.
+The scanner accepts common languages and manifests, limits size/count, withholds
+raw lines and ignores `.env*`, sensitive filenames, links and dependencies. These
+filters do not guarantee that filenames or metadata contain no secrets: review
+reports before sharing. Do not print configuration to search for tokens; use
+variable names and services' public contracts.
 
-Para cada integração, percorra dependência -> configuração -> import -> chamada ->
-ambiente e confirmação operacional. Dependência não comprova uso; comentário,
-fixture, schema e tela futura não comprovam coleta. Descreva limitações de análise
-estática, linguagens não compreendidas e arquivos excluídos ou truncados.
+For each integration, trace dependency -> configuration -> import -> call ->
+environment and operational confirmation. A dependency does not prove use;
+comments, fixtures, schemas and future screens do not prove collection. Describe
+static-analysis limitations, unsupported languages and excluded/truncated files.
 
-Investigue produto, público, jurisdições, idiomas, canais, autenticação, uploads,
-cobranças, publicidade, armazenamento, logs, backups, exclusão e terceiros. CNPJ de
-pessoa jurídica não é automaticamente dado pessoal; MEI, empresário e vínculos a
-pessoa natural exigem contexto. Endereço IP acessível ao servidor não significa
-que ele esteja persistido; verifique logs de aplicação, proxy e hospedagem.
+Investigate product, audience, jurisdictions, languages, channels, authentication,
+uploads, charges, advertising, storage, logs, backups, deletion and third parties.
+A legal entity's CNPJ is not automatically personal data; individual entrepreneurs,
+MEI registrations and links to natural persons require context. An IP address
+available to a server does not mean persistence; inspect app, proxy and hosting logs.
 
-Saída: perfil e evidências identificadas por arquivo, linha, contexto, hash e
-confiança. Antes de citar linha, confirme sua posição no arquivo original; o
-pré-processamento do scanner não substitui leitura contextual.
+Output: profile and evidence identified by file, line, context, hash and confidence.
+Before citing a line, confirm its position in the original file; scanner
+preprocessing is no substitute for contextual reading.

@@ -1,9 +1,9 @@
-# IA, agentes e decisões
+# AI, agents and decisions
 
-Siga o caminho real: entrada → prompts → modelo → ferramentas → resposta → histórico, logs e eventual RAG. Identifique provedor, API/produto/plano, modelo configurado, arquivos, áudio/imagens, embeddings, banco vetorial, memória, regiões e destinatários. Identifique ações externas e permissões. Não execute essas ações para “testar” a política.
+Trace the actual path: input → prompts → model → tools → response → history, logs and possible RAG. Identify provider, API/product/plan, configured model, files, audio/images, embeddings, vector database, memory, regions and recipients. Identify external actions and permissions. Do not execute those actions to “test” a policy.
 
-Consulte termos, DPA, retenção e documentação oficial do serviço específico, com data e evidência. Conta corporativa, API e produto de consumo podem ter condições diferentes. Não declarar ausência de treinamento, retenção zero ou exclusão de todos os derivados apenas pela presença de uma opção de SDK.
+Consult the specific service's terms, DPA, retention and official documentation, with dates and evidence. Corporate accounts, APIs and consumer products can have different conditions. Do not claim no training, zero retention or deletion of all derivatives solely from an SDK option.
 
-Explique a função real da IA e limites relevantes: dados enviados, usos, retenção conhecida, supervisão, contestação, acesso a dados de empresas, isolamento e riscos de saída incorreta. Examine art. 20 da LGPD quando houver decisão unicamente automatizada que afete interesses. Aviso genérico de erro não substitui salvaguardas e direitos aplicáveis.
+Explain AI's actual role and relevant limits: transmitted data, uses, known retention, supervision, challenges, access to company data, isolation and incorrect-output risks. Examine LGPD Article 20 for decisions based solely on automated processing that affect interests. A generic error notice does not replace applicable safeguards or rights.
 
-Em cada projeto, pesquise o estado atual da legislação brasileira de IA. Diferencie lei vigente, projeto de lei, norma setorial, orientação e boa prática. Para outros territórios, confirme alcance e datas de aplicação em fonte oficial. Não trate projeto legislativo como lei nem uma data histórica deste pacote como pesquisa atual.
+For every project, research the current state of Brazilian AI legislation. Distinguish effective law, bills, sectoral rules, guidance and good practice. For other territories, confirm scope and application dates in official sources. Do not treat bills as laws or this package's historical date as current research.

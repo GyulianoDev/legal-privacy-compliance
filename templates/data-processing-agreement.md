@@ -1,15 +1,15 @@
-# Roteiro: Contrato de Tratamento de Dados
+# Outline: Data Processing Agreement
 
-Usar quando análise B2B indicar relação controlador–operador; não transformar toda integração em DPA nem atribuir papel único ao SaaS.
+Use when B2B analysis indicates a controller–processor relationship; do not turn every integration into a DPA or assign a single role to the SaaS.
 
-1. Partes, operação, objeto/duração e papéis específicos.
-2. Anexo de instruções: titulares, categorias, finalidades, acessos e limites.
-3. Obrigações das partes, confidencialidade, pessoas autorizadas e medidas verificadas.
-4. Suboperadores: lista, funções, regiões, autorização e alterações conforme o arranjo revisado.
-5. Direitos dos titulares, cooperação, informações e auditoria proporcionais.
-6. Incidentes: contatos reais, cooperação e prazos compatíveis com obrigações do controlador; não copiar prazo regulatório sem analisar relação contratual.
-7. Transferências e instrumento válido, com anexos oficiais quando exigidos; não reescrever cláusulas-padrão como equivalentes automáticos.
-8. Retorno/exportação/exclusão no término, backups e retenção legal.
-9. Responsabilidade, ordem de prevalência, vigência, assinatura e revisão jurídica.
+1. Parties, operation, subject/duration and specific roles.
+2. Instructions annex: data subjects, categories, purposes, access and limits.
+3. Parties' obligations, confidentiality, authorized personnel and verified measures.
+4. Subprocessors: list, functions, regions, authorization and changes under the reviewed arrangement.
+5. Data-subject rights, cooperation, information and proportionate audits.
+6. Incidents: real contacts, cooperation and deadlines compatible with controller obligations; do not copy a regulatory deadline without analyzing the contractual relationship.
+7. Transfers and a valid instrument, with official annexes where required; do not rewrite standard clauses as automatically equivalent.
+8. Return/export/deletion at termination, backups and legal retention.
+9. Liability, precedence, effective period, signature and legal review.
 
-Manter em separado dados tratados pelo fornecedor para gerir sua própria conta/faturamento. Campos contratuais pendentes impedem uso como instrumento pronto para assinatura.
+Keep separate the data a provider processes to manage its own accounts/billing. Unresolved contractual fields prevent use as an instrument ready for signature.

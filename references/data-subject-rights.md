@@ -1,9 +1,9 @@
-# Direitos e atendimento
+# Rights and request handling
 
-Consulte arts. 18–20 da LGPD, hipóteses de conservação e regulamentos atuais. Descreva confirmação/acesso, correção, informação sobre compartilhamento, anonimização/bloqueio/eliminação quando cabíveis, portabilidade conforme regulamentação, informação sobre consentimento e revogação e revisão de decisões automatizadas no alcance aplicável. Não prometer direito incondicional que a lei sujeita a requisitos.
+Consult LGPD Articles 18–20, retention exceptions and current regulations. Describe confirmation/access, correction, sharing information, anonymization/blocking/erasure where applicable, portability under regulation, consent/withdrawal information and review of automated decisions within the applicable scope. Do not promise an unconditional right when the law imposes requirements.
 
-O fluxo precisa ter canal real, verificação proporcional de identidade e representação, encaminhamento ao controlador correto, registro mínimo e resposta compreensível. Separe solicitação, análise, execução e resposta. Consulte os prazos e condições atuais; não use o prazo de acesso como prazo universal para todos os direitos.
+The procedure needs an actual channel, proportionate identity/representation checks, routing to the correct controller, minimal records and understandable responses. Separate request, assessment, execution and response. Check current deadlines and conditions; do not use the access deadline universally for all rights.
 
-Para exclusão, mapear banco principal, objetos, logs, integrações, memória/vetores de IA, backups, retenções obrigatórias, pedidos em litígio e suboperadores. Informar critérios e exceções sem prometer exclusão imediata de todas as cópias. Não revelar dados de terceiros numa exportação multiempresa.
+For deletion, map main databases, objects, logs, integrations, AI memory/vectors, backups, mandatory retention, disputed requests and subprocessors. Explain criteria and exceptions without promising immediate deletion of all copies. Do not reveal third-party data in a multi-tenant export.
 
-O agente pode propor procedimento e aviso. Não deve acessar dados reais de titulares, abrir chamados externos ou executar exclusões durante a análise do repositório.
+The agent may propose procedures and notices. It must not access real data subjects' records, open external tickets or execute deletions during repository analysis.

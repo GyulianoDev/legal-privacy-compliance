@@ -1,11 +1,11 @@
-# Roteiro: Uso Aceitável
+# Outline: Acceptable Use
 
-Aplicável a contas, APIs, comunidades, bots, conteúdo ou IA com regras de uso justificadas.
+Applicable to accounts, APIs, communities, bots, content or AI with justified usage rules.
 
-- Definir recursos e usuários sujeitos às regras, versão e relação com os termos.
-- Listar proibições concretas relevantes: acesso não autorizado, fraude, abuso, violação de direitos e exposição indevida de dados; não criar vigilância ou poderes inexistentes.
-- Explicar limites de automação/API, conteúdo e ações de agentes somente quando implementados/contratados.
-- Informar denúncia, avaliação, medidas proporcionais, suspensão, preservação legal e contestação quando aplicável.
-- Descrever contato e alterações, preservando direitos indisponíveis e liberdade legítima de uso.
+- Define the features and users covered, version and relationship with the terms.
+- List relevant, concrete prohibitions: unauthorized access, fraud, abuse, rights violations and improper data exposure; do not invent surveillance or nonexistent powers.
+- Explain automation/API, content and agent-action limits only when implemented/contracted.
+- Describe reporting, assessment, proportionate measures, suspension, legal preservation and challenges where applicable.
+- Describe contact and changes, preserving mandatory rights and legitimate use.
 
-Não inventar monitoramento permanente, moderação 24h ou detecção automática. Diferenciar funcionalidade existente de recomendação de melhoria.
+Do not invent permanent monitoring, 24-hour moderation or automatic detection. Distinguish existing functionality from improvement recommendations.

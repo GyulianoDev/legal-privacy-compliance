@@ -1,19 +1,20 @@
-# Revisão, atualização e exportação
+# Review, updates and export
 
-Leia versões anteriores e seu inventário. Reexecute a descoberta em nova pasta;
-compare sinais, evidências, integrações, finalidades e operações. Remoção de código
-não prova exclusão de dados históricos. Confirme migração, backups e contratos.
+Read previous versions and their inventory. Rerun discovery into a new folder;
+compare indicators, evidence, integrations, purposes and operations. Removing code
+does not prove deletion of historical data. Confirm migrations, backups and contracts.
 
-Verifique legislação e guias atuais. Registre cada alteração em `CHANGELOG.md` da
-saída com versão anterior/nova, motivo, evidência, fonte, alcance e pendências.
-Mudanças editoriais não devem parecer mudanças materiais de tratamento. Não
-aumente documento apenas para aparentar completude.
+Check current legislation and guides. Record every change in the output's
+`CHANGELOG.md` with old/new version, reason, evidence, source, scope and unresolved
+questions. Editorial changes must not appear to be material changes in processing.
+Do not lengthen a document just to make it seem complete.
 
-Para `EXPORT`, confirme versão, revisões, destinatário e formato; exporte o conteúdo
-aprovado como fornecido. HTML e JSON locais são suportados pelos scripts e não
-executam HTML embutido. PDF/DOCX exigem ferramentas do ambiente e conferência de
-renderização. React/MDX e rotas públicas exigem solicitação explícita e verificação
-de escape de conteúdo. Não sobrescreva arquivos existentes.
+For `EXPORT`, confirm version, reviews, recipient and format; export approved
+content as supplied. Scripts support local HTML/JSON without executing embedded
+HTML. PDF/DOCX require environment tools and rendered-output checks. React/MDX and
+public routes require an explicit request and content-escaping checks. Do not
+overwrite existing files.
 
-Entrega não é publicação. Aprovação humana deve identificar responsável, versão,
-data e escopo; o agente não pode atribuir aprovação ao usuário sem recebê-la.
+Delivery is not publication. Human approval must identify the responsible person,
+version, date and scope; the agent cannot attribute approval to a user without
+receiving it.

@@ -1,17 +1,17 @@
-# Cookies, armazenamento e preferências
+# Cookies, storage and preferences
 
-Use código/configuração e, quando autorizado, observação de rede em ambiente de teste com dados fictícios. Dependência não comprova disparo; disparo sem cookie pode transmitir dados pessoais. `localStorage` usado só para tema não implica consentimento por si só.
+Use code/configuration and, when authorized, network observation in a test environment with fictional data. A dependency does not establish a request fires; cookieless requests can transmit personal data. Theme-only `localStorage` does not itself imply consent.
 
-Inventarie nome/chave ou padrão, tecnologia, fornecedor, domínio, dados transmitidos, finalidade, categoria, primeira/terceira parte, duração verificada, momento de ativação, condição de consentimento e evidência. Separe o que foi visto do que depende de painel do fornecedor. Não deduza duração pelo nome.
+Inventory name/key or pattern, technology, provider, domain, transmitted data, purpose, category, first/third party, verified duration, activation time, consent conditions and evidence. Separate observations from facts requiring provider-console access. Do not infer duration from a name.
 
-Quando a operação depender de consentimento, a especificação deve incluir:
+When an operation relies on consent, the specification must include:
 
-- Aceitar, rejeitar não essenciais e personalizar em linguagem clara, com facilidade equivalente; sem caixas previamente marcadas para opção dependente de consentimento.
-- Bloqueio antes da escolha, inclusive tags, pixels, SDKs e chamadas servidor/cliente pertinentes.
-- Categorias explicadas, política acessível e alteração/revogação posterior.
-- Persistência e registro mínimo das escolhas, versões e duração justificada, sem transformar o registro num rastreador adicional.
-- Testes de primeira visita, rejeição, aceite parcial, revogação e nova sessão. Verificar se carregamento via GTM contorna a preferência.
+- Clear, equally accessible accept, reject nonessential and customize choices; no prechecked options for processing that depends on consent.
+- Blocking before choice, including relevant tags, pixels, SDKs and server/client calls.
+- Explained categories, an accessible policy and subsequent changes/withdrawal.
+- Minimal persistence/records of choices, versions and justified duration, without turning the record into another tracker.
+- First-visit, rejection, partial-acceptance, withdrawal and new-session tests. Check whether GTM loading bypasses preferences.
 
-Política escrita não implementa bloqueio. Entregue `consent-banner-spec.md` quando aplicável e liste divergências técnicas para implementação autorizada. Não acrescente banner nem altere o aplicativo durante a geração documental.
+A written policy does not implement blocking. Deliver `consent-banner-spec.md` when applicable and list technical gaps for authorized implementation. Do not add a banner or modify the app during document generation.
 
-O PDF local é edição histórica de 2022. Há redação problemática na p. 24 sobre legítimo interesse pelo poder público; não use essa frase como fundamento. Consulte versão/errata oficial e o [catálogo analisado](pdf-library.md).
+The local PDF is a historical 2022 edition. Page 24 contains problematic wording about legitimate interest in the public sector; do not use that sentence as a basis. Consult the official edition/errata and [reviewed catalog](pdf-library.md).

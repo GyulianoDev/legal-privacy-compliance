@@ -1,13 +1,13 @@
-# Bases legais: finalidade antes da hipótese
+# Legal bases: purpose before selection
 
-Para cada operação, registre: dado e titulares; finalidade concreta; necessidade; hipótese candidata; dispositivo; requisitos demonstrados; alternativas; riscos e salvaguardas; evidências; responsável pela validação.
+For each operation, record data/data subjects, concrete purpose, necessity, candidate basis, provision, demonstrated requirements, alternatives, risks/safeguards, evidence and validation owner.
 
-- **Contrato / procedimentos preliminares:** demonstrar vínculo e necessidade para o pedido do titular; contrato não cobre automaticamente publicidade ou treinamento de modelo.
-- **Obrigação legal ou regulatória:** identificar norma, sujeito obrigado, campos e prazo. Preferência comercial não é obrigação legal.
-- **Consentimento:** específico, informado, livre, demonstrável e revogável conforme a lei; recusa não pode bloquear função sem necessidade. Consentimento genérico não regulariza toda operação.
-- **Legítimo interesse:** avaliar finalidade legítima, necessidade, expectativas, impacto em direitos, balanceamento e salvaguardas. Consultar art. 10 e guia atual; não aplicar art. 7º a dado sensível por conveniência.
-- **Demais hipóteses:** pesquisar enquadramento concreto, inclusive proteção da vida, tutela da saúde, crédito, pesquisa e exercício regular de direitos. Não selecionar pelo nome do campo.
+- **Contract / preliminary procedures:** demonstrate the relationship and necessity for the data subject's request; a contract does not automatically cover advertising or model training.
+- **Legal or regulatory obligation:** identify the rule, obligated party, fields and period. Commercial preference is not a legal obligation.
+- **Consent:** specific, informed, free, demonstrable and revocable under the law; refusal must not unnecessarily block functions. Generic consent does not regularize every operation.
+- **Legitimate interest:** assess legitimate purpose, necessity, expectations, effects on rights, balancing and safeguards. Consult Article 10 and current guidance; do not apply Article 7 to sensitive data for convenience.
+- **Other bases:** research concrete applicability, including protection of life, health protection, credit, research and regular exercise of rights. Do not select based on a field name.
 
-Dados sensíveis exigem exame do art. 11; menores, do art. 14 e normas atuais. Poder público exige competência/finalidade pública e regras próprias, não reprodução de cláusulas do SaaS. A hipótese usada por um fornecedor não determina automaticamente a do cliente.
+Sensitive data requires Article 11 analysis; minors require Article 14 and current rules. Public-sector processing needs competence/public purpose and specific rules, not copied SaaS clauses. A provider's basis does not automatically determine its customer's basis.
 
-Quando faltarem contexto ou requisitos, mantenha `proposed_legal_basis: null`, pendência e `REQUIRES_HUMAN_REVIEW`. Proposta fundamentada deve ser identificada como proposta até revisão competente; não crie uma matriz automática `email = consentimento`.
+When context or requirements are missing, keep `proposed_legal_basis: null`, an unresolved question and `REQUIRES_HUMAN_REVIEW`. Identify a reasoned proposal as proposed until competent review; do not create an automatic `email = consent` matrix.

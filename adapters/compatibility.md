@@ -1,26 +1,26 @@
-# Compatibilidade e descoberta
+# Compatibility and discovery
 
-Documentação oficial consultada em **2026-11-05**. O núcleo compartilhado é um único diretório `legal-privacy-compliance` com `SKILL.md`; não há três cópias divergentes nem necessidade de wrapper proprietário para executar os scripts. Apenas `agents/openai.yaml` acrescenta metadados opcionais do Codex.
+Official documentation consulted on **2026-11-05**. The shared core is a single `legal-privacy-compliance` directory with `SKILL.md`; there are no three divergent copies or proprietary wrappers needed to run scripts. Only `agents/openai.yaml` adds optional Codex metadata.
 
-| Agente | Projeto | Global do usuário | Ativação manual |
+| Agent | Project | User global | Manual activation |
 | --- | --- | --- | --- |
 | Claude Code | `.claude/skills/legal-privacy-compliance/` | `~/.claude/skills/legal-privacy-compliance/` | `/legal-privacy-compliance` |
-| Codex | `.agents/skills/legal-privacy-compliance/` | `~/.agents/skills/legal-privacy-compliance/` | `$legal-privacy-compliance`; seletor `/skills` conforme cliente |
-| Google Antigravity | `.agents/skills/legal-privacy-compliance/` | `~/.gemini/config/skills/legal-privacy-compliance/` | App/CLI: `/legal-privacy-compliance`; IDE: conferir Customizations |
+| Codex | `.agents/skills/legal-privacy-compliance/` | `~/.agents/skills/legal-privacy-compliance/` | `$legal-privacy-compliance`; `/skills` selector depending on client |
+| Google Antigravity | `.agents/skills/legal-privacy-compliance/` | `~/.gemini/config/skills/legal-privacy-compliance/` | App/CLI: `/legal-privacy-compliance`; IDE: check Customizations |
 
-O Antigravity também documenta caminhos legados como `.agent/skills` no projeto e `~/.gemini/antigravity/skills` no IDE. O instalador usa os caminhos compartilhados atuais; não instala duplicatas em diretórios legados. Claude e Codex não recebem automaticamente todos os diretórios específicos do outro agente.
+Antigravity also documents legacy paths such as project `.agent/skills` and IDE `~/.gemini/antigravity/skills`. The installer uses current shared paths; it does not install duplicates in legacy directories. Claude and Codex do not automatically inherit each other's client-specific directories.
 
-Nos três produtos, descoberta por descrição permite ativação por intenção quando habilitada no cliente; não é garantia de acionamento em toda mensagem. Reinicie/recarregue a sessão ou use o mecanismo de atualização do cliente após instalar. No CLI Antigravity, conferir `/skills reload` na versão instalada. A sintaxe e disponibilidade de seletores podem variar por superfície/versão.
+In all three products, description-based discovery supports activation by intent when enabled in the client; it does not guarantee activation for every message. Restart/reload the session or use the client's refresh mechanism after installation. For Antigravity CLI, check `/skills reload` in the installed version. Selector syntax and availability may vary by surface/version.
 
-## Verificação prática de aceitação em cada cliente
+## Practical acceptance check for each client
 
-1. Instalar numa pasta de teste pelo comando do README, com a biblioteca completa.
-2. Abrir uma sessão nova na raiz desse projeto e confirmar descoberta do nome/descrição.
-3. Invocar manualmente `INVENTORY` em um projeto fictício; conferir acesso aos scripts e `read-pdf.py --list` pelo caminho instalado.
-4. Em outra sessão, pedir naturalmente uma auditoria de política sem citar o nome; observar se o cliente seleciona a skill.
-5. Verificar que não executa app, lê `.env`, publica ou inventa identidade; conferir relatórios e pendências.
-6. Registrar cliente, versão, sistema, invocação, permissões, resultado e falhas. Descoberta correta não prova qualidade jurídica.
+1. Install in a test folder using the README command, with the complete library.
+2. Start a new session in that project root and confirm discovery of the name/description.
+3. Manually invoke `INVENTORY` on a fictional project; check access to scripts and `read-pdf.py --list` using the installed path.
+4. In another session, naturally request a policy audit without naming the skill; observe whether the client selects it.
+5. Check that it does not execute the app, read `.env`, publish or invent identity; inspect reports and unresolved questions.
+6. Record client, version, OS, invocation, permissions, results and failures. Correct discovery does not prove legal quality.
 
-**Estado desta entrega:** formato, scripts e instalação local testados; nenhuma sessão completa de Claude Code, Codex instalado ou Antigravity foi iniciada como teste de descoberta/execução. macOS/Linux e renderização PDF/DOCX também não foram executados. Não confundir documentação oficial e cópia de pastas com esses testes.
+**Delivery status:** format, scripts and local installation tested; no complete session of Claude Code, installed Codex or Antigravity was started as a discovery/execution test. macOS/Linux and PDF/DOCX rendering were not exercised either. Do not confuse official documentation and folder copying with these tests.
 
-Fontes primárias: [Agent Skills](https://agentskills.io/specification), [Claude Code Skills](https://code.claude.com/docs/en/skills), [Codex Skills](https://developers.openai.com/codex/skills/), [Google Antigravity Skills](https://antigravity.google/docs/skills).
+Primary sources: [Agent Skills](https://agentskills.io/specification), [Claude Code Skills](https://code.claude.com/docs/en/skills), [Codex Skills](https://developers.openai.com/codex/skills/), [Google Antigravity Skills](https://antigravity.google/docs/skills).

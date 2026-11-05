@@ -1,25 +1,25 @@
-# Pesquisa normativa
+# Legal research
 
-Comece pelo [registro](../references/source-registry.md). Para cada conclusão
-material, abra o texto oficial pertinente e confira dispositivo, jurisdição,
-vigência, alterações e ato regulamentar. Planalto bloqueado não implica lei
-inacessível: consulte Câmara, Senado, ANPD ou Diário Oficial e registre a substituição.
-Não confunda publicação original com texto consolidado nem minuta com regra vigente.
+Start with the [registry](../references/source-registry.md). For each material
+conclusion, open the relevant official text and check provision, jurisdiction,
+effective status, amendments and regulations. A blocked Planalto page does not
+make a law inaccessible: consult the Chamber of Deputies, Senate, ANPD or Official
+Gazette and record the substitute. Do not confuse original publication with
+consolidated text, or a draft with an effective rule.
 
-Crie `legal-sources.json` como array: `id`, `title`, `url`, `jurisdiction`, `kind`
+Create `legal-sources.json` as an array: `id`, `title`, `url`, `jurisdiction`, `kind`
 (`law`, `regulation`, `guidance`, `proposal`, `practice`), `articles`, `consulted_at`,
-`status` (`verified`, `needs_recheck`, `blocked`, `offline`), `applicability` e `notes`.
-Use strings em `articles`, `applicability` e `notes`; `consulted_at` é `YYYY-MM-DD`.
-A confirmação
-é feita pelo agente na sessão; datas anteriores não viram data atual automaticamente.
-Vincule fonte e evidência técnica à seção fundamentada.
+`status` (`verified`, `needs_recheck`, `blocked`, `offline`), `applicability` and `notes`.
+Use strings for `articles`, `applicability` and `notes`; `consulted_at` is `YYYY-MM-DD`.
+The agent confirms sources during the session; an older date does not automatically
+become today's date. Link sources and technical evidence to the supported section.
 
-Leia o PDF local pela edição e página física, conferindo paginação impressa. Um
-PDF histórico ajuda a contextualizar e comparar; não substitui atualização da lei.
-Modelos de órgãos públicos não são autoridade para práticas de um SaaS privado.
-Não copie identificações, contatos, políticas setoriais ou cláusulas de foro.
+Read local PDFs by edition and physical page, checking printed numbering. Historical
+PDFs support context and comparisons; they do not replace current legal research.
+Public-agency examples are not authority for a private SaaS's practices. Do not
+copy identities, contacts, sector-specific policies or venue clauses.
 
-Sem rede: entregue descoberta e rascunho, marque `OFFLINE_REFERENCE_ONLY`, cite
-edições locais e liste exatamente o que depende de atualização. Não invente artigo,
-jurisprudência ou vigência. Para IA, não afirme inexistência de regulação apenas
-porque a pesquisa inicial não encontrou uma lei específica.
+Without network access: deliver discovery and drafts, mark `OFFLINE_REFERENCE_ONLY`,
+cite local editions and list exactly what needs updating. Do not invent provisions,
+case law or effective status. For AI, do not claim no regulation exists merely
+because initial research did not find a specific law.

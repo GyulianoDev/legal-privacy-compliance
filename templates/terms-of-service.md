@@ -1,13 +1,13 @@
-# Roteiro: Termos de Uso
+# Outline: Terms of Service
 
-Roteiro de redação, não documento publicável. Redigir cada seção com fatos/evidências; omitir apenas itens inaplicáveis com motivo no relatório. Marcar lacunas `REQUIRES_HUMAN_REVIEW`.
+Writing outline, not a publishable document. Draft each section with facts/evidence; omit only inapplicable items and explain why in the report. Mark gaps `REQUIRES_HUMAN_REVIEW`.
 
-1. **Responsável, serviço e versão:** nome jurídico real, identificação necessária, contato, objeto, recursos e limites observados.
-2. **Elegibilidade e contas:** público, idade fundamentada, cadastro/login, credenciais, recuperação e encerramento disponíveis.
-3. **Uso e conteúdo:** responsabilidades proporcionais, permissões, propriedade intelectual, licença necessária ao serviço, moderação e contestação reais. Não exigir cessão irrestrita por padrão.
-4. **Condições comerciais:** só se houver oferta paga; planos, preço, renovação, cancelamento, entrega, reembolsos e direitos aplicáveis alinhados ao checkout.
-5. **Terceiros e disponibilidade:** integrações relevantes, dependências confirmadas, manutenção, limites; não inventar SLA nem excluir toda responsabilidade.
-6. **Suspensão, término e mudanças:** motivos, consequências, comunicação, exportação/exclusão e revisão de medidas quando aplicável.
-7. **Direitos, contato e controvérsias:** direitos preservados, lei/foro juridicamente adequados; revisar CDC e não copiar foro federal de órgão público.
+1. **Responsible party, service and version:** actual legal name, necessary identification, contact, scope, observed features and limits.
+2. **Eligibility and accounts:** audience, justified age requirements, available registration/login, credentials, recovery and closure.
+3. **Use and content:** proportionate responsibilities, permissions, intellectual property, license needed for the service, actual moderation and challenges. Do not demand unrestricted assignment by default.
+4. **Commercial conditions:** only for paid offerings; plans, prices, renewal, cancellation, delivery, refunds and applicable rights consistent with checkout.
+5. **Third parties and availability:** relevant integrations, confirmed dependencies, maintenance and limits; do not invent an SLA or exclude all liability.
+6. **Suspension, termination and changes:** reasons, consequences, communication, export/deletion and review of measures where applicable.
+7. **Rights, contact and disputes:** preserved rights and legally appropriate law/venue; review consumer law and do not copy a public agency's federal venue.
 
-No brief, separar `sections`, `source_ids`, `evidence_ids` e `pending`. Verificar termos versus políticas, interface e contrato comercial antes de materializar.
+Separate `sections`, `source_ids`, `evidence_ids` and `pending` in the brief. Check terms against policies, interfaces and commercial contracts before materializing files.

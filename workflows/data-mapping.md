@@ -1,21 +1,21 @@
-# Mapa de tratamentos
+# Processing map
 
-Parta de `data-inventory.json`; cada entrada automática é uma hipótese pendente.
-Agrupe indícios na operação real, como autenticação, entrega ou suporte, evitando
-confundir um campo com uma finalidade. Registre fonte, campos, titulares, decisão
-de coleta, controlador/operador por finalidade, destinatários, localização,
-transferências, retenção, eliminação, backups, medidas observáveis e evidências.
+Start from `data-inventory.json`; every automatic entry is an unresolved hypothesis.
+Group indicators into actual operations such as authentication, delivery or support,
+without confusing a field with a purpose. Record source, fields, data subjects,
+collection decisions, controller/processor per purpose, recipients, location,
+transfers, retention, deletion, backups, observable measures and evidence.
 
-Confirme se dados sensíveis são efetivamente tratados e se a referência é apenas
-esquema, simulação ou teste. Registre `null` para desconhecido, `not_applicable`
-somente após análise fundamentada e `REQUIRES_HUMAN_REVIEW` para decisão pendente.
+Confirm whether sensitive data is actually processed and whether a reference is
+only a schema, simulation or test. Record `null` for unknown, `not_applicable`
+only after reasoned analysis and `REQUIRES_HUMAN_REVIEW` for a pending decision.
 
-Proponha base legal com finalidade, necessidade, dispositivo, contexto e condição
-de uso. Legítimo interesse precisa avaliação de impacto nos titulares; não o aplique
-a dados sensíveis. Consentimento para termo contratual não é consentimento para
-todos os tratamentos. Menores exigem avaliação própria e melhor interesse.
+Propose a legal basis with purpose, necessity, provision, context and conditions
+for use. Legitimate interest requires assessing effects on data subjects; do not
+apply it to sensitive data. Agreement to contractual terms is not consent to all
+processing. Minors require their own assessment and best interests analysis.
 
-Não derive região de servidor de uma dependência ou domínio. Confirme implantação,
-suboperadores, contratos e acesso remoto internacional. Retenção deve distinguir
-conta ativa, obrigação legal, disputa, logs e backups; prazo desconhecido continua
-desconhecido. Registrar uma proposta não equivale a adotar a política operacional.
+Do not derive server regions from a dependency or domain. Confirm deployment,
+subprocessors, contracts and international remote access. Retention must distinguish
+active accounts, legal obligations, disputes, logs and backups; an unknown period
+remains unknown. Recording a proposal does not adopt an operational policy.

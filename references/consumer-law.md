@@ -1,9 +1,9 @@
-# Contratação e consumo
+# Contracting and consumer relations
 
-Confirme ofertante, público, objeto, oferta, preço/moeda, tributos/taxas, teste gratuito, renovação, cancelamento, entrega, atendimento e devoluções. Interface, checkout e termos precisam dizer a mesma coisa.
+Confirm supplier, audience, subject, offer, price/currency, taxes/fees, free trials, renewal, cancellation, delivery, service and returns. Interface, checkout and terms must agree.
 
-Pesquise CDC e Decreto 7.962/2013 conforme enquadramento, incluindo informação clara, identificação, confirmação/correção de contratação, arrependimento e atendimento. Direito de arrependimento em contratação à distância exige análise das condições aplicáveis; não suprima por cláusula “nenhum reembolso” nem prometa exceções sem fundamento.
+Research the CDC and Decree 7.962/2013 as applicable, including clear information, identification, contracting confirmation/correction, withdrawal and service. Distance-contract withdrawal rights require analysis of applicable conditions; do not remove them with a “no refunds” clause or promise unsupported exceptions.
 
-Limitações de responsabilidade, mudança unilateral, suspensão, moderação, licença de conteúdo e foro precisam de proporcionalidade e revisão jurídica. Não copiar foro da Justiça Federal ou privilégios de órgão público de um PDF gov.br para empresa privada. Não afastar direitos indisponíveis por aceite.
+Liability limits, unilateral changes, suspension, moderation, content licenses and venue require proportionality and legal review. Do not copy federal-court venue or public-agency privileges from a gov.br PDF into a private company's terms. Acceptance does not waive mandatory rights.
 
-Em marketplace, distinguir plataforma, vendedor, prestador e comprador por função; não declarar isenção total sem análise. Em SaaS, esclarecer exportação, encerramento e retenções e separar contrato comercial do DPA quando pertinente. B2B não exclui automaticamente análise de relação de consumo.
+For marketplaces, distinguish platform, seller, provider and buyer by function; do not claim total exemption without analysis. For SaaS, explain export, termination and retention, separating the commercial contract from the DPA where appropriate. B2B does not automatically exclude consumer-relationship assessment.
