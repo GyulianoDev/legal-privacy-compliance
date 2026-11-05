@@ -106,7 +106,7 @@ def strip_comments(text, suffix):
         if suffix == '.html':
             return re.sub(r'<!--[\s\S]*?-->', lambda m: '\n' * m[0].count('\n'), text)
         return text
-    # preserva strings e linhas; isso só reduz ruído, não prova execução.
+    # preserve strings and lines; this only reduces noise, it doesn't prove execution.
     pattern = r'("(?:\\.|[^"\\])*"|\x27(?:\\.|[^\x27\\])*\x27|`(?:\\.|[^`\\])*`)|(/\*[\s\S]*?\*/|//[^\n]*)'
     return re.sub(pattern, lambda m: m[1] if m[1] else '\n' * m[0].count('\n'), text)
 

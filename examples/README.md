@@ -1,10 +1,10 @@
-# Exemplos fictícios
+# Fictional Examples
 
-`reviewed-brief.json` demonstra o formato de entrada, não um caso juridicamente aprovado. Identidade, bases e prazos permanecem pendentes. `researched-sources.json` está intencionalmente vazio: os testes não simulam uma pesquisa oficial que não ocorreu para um produto real.
+`reviewed-brief.json` demonstrates the input format, not a legally approved case. Identity, legal bases and retention periods remain unresolved. `researched-sources.json` is intentionally empty: tests do not simulate official research that did not happen for a real product.
 
-Os dez projetos pequenos em `tests/fixtures/` são entradas estáticas de teste, com trechos que não devem ser executados como aplicações. Eles cobrem landing, analytics, comércio, mobile, SaaS, IA, menores, internacional, dependências sem implementação e política contraditória.
+The ten small projects in `tests/fixtures/` are static test inputs, with snippets that must not be executed as applications. They cover landing pages, analytics, commerce, mobile, SaaS, AI, minors, international operations, dependencies without implementation and contradictory policies.
 
-Para experimentar, execute na raiz da skill:
+To try them, run from the skill root:
 
 ```sh
 python scripts/scan-project.py tests/fixtures/incorrect-policies --out ../demo-scan
@@ -12,4 +12,4 @@ python scripts/verify-consistency.py --profile ../demo-scan/project-profile.json
 python scripts/generate-documents.py --brief examples/reviewed-brief.json --sources examples/researched-sources.json --out ../demo-drafts
 ```
 
-A auditoria desse cenário retorna **2** porque encontra contradições de alta prioridade. A geração cria apenas política de privacidade em rascunho, com pendências; o modo `FULL` não força nove documentos. Use saídas novas ao repetir.
+The auditor returns **2** for this scenario because it finds high-priority contradictions. Generation creates only a draft privacy policy with unresolved questions; `FULL` does not force nine documents. Use new outputs when repeating these commands.
