@@ -10,9 +10,7 @@ Skill para analisar projetos e preparar termos, políticas e inventários com ev
 
 ## 📌 Sobre o Projeto
 
-O agente investiga o projeto, consulta os PDFs pertinentes, pesquisa legislação atual e escreve as seções. Os scripts ajudam na descoberta, rastreabilidade, geração de arquivos e auditoria. Expressões regulares não escolhem bases legais nem validam artigos.
-
-O pacote inclui os **cinco PDFs fornecidos**, com nomes em inglês, hashes, edição e limites de uso. Os exemplos gov.br e Ministério da Defesa são referências institucionais; não são termos prontos para um SaaS. Veja a [análise da biblioteca](references/pdf-library.md).
+O agente investiga o projeto, consulta os PDFs pertinentes, pesquisa legislação atual e escreve as seções. Os scripts ajudam na descoberta, rastreabilidade, geração de arquivos e auditoria.
 
 ---
 
@@ -42,6 +40,13 @@ Modos do agente: `FULL` (padrão), `TOS`, `PRIVACY`, `COOKIES`, `AI`, `AUDIT`, `
 ---
 
 ## 🚀 Instalação
+
+Copie este pedido para o seu agente instalar a skill no projeto atual:
+
+```text
+Agente, instale esta skill em meu ambiente para usá-la no meu projeto atual: https://github.com/GyulianoDev/legal-privacy-compliance
+Use a branch ptbr e a instalação por projeto compatível com este agente.
+```
 
 Tenha Python 3.10+ e o agente escolhido. Abra o terminal nesta pasta, a que contém `SKILL.md`. Os comandos usam `python`; em sistemas onde o executável se chama `python3`, use esse nome.
 
@@ -192,5 +197,3 @@ Resultado desta entrega: **26 testes, 25 aprovados e 1 ignorado** pela falta de 
 - O pacote não substitui advogado/encarregado, não garante conformidade e não aprova documentos para publicação.
 - Os PDFs de terceiros conservam atribuição e não recebem a licença MIT do código. Conferir permissões antes de redistribuição pública.
 - Verificados localmente: scripts Python no Windows, fixtures, schemas, instalação/cópia e integridade da biblioteca. Descoberta e execução completa nos três clientes, macOS/Linux e exportações PDF/DOCX **ainda não foram validadas**. O [protocolo](adapters/compatibility.md) indica como testar.
-
-Próximas melhorias úteis: testes reais de descoberta por cliente, parsers específicos de configuração quando um projeto exigir e conectores de exportação com renderização verificada. Expandir apenas a partir de necessidade observada.
