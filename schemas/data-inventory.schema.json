@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Candidate processing inventory",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "product",
+    "operations",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "product": {
+      "type": "string"
+    },
+    "operations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "category",
+          "collection_source",
+          "purpose",
+          "controller",
+          "processor",
+          "proposed_legal_basis",
+          "storage_location",
+          "retention",
+          "deletion_mechanism",
+          "fields",
+          "subjects",
+          "recipients",
+          "security_measures",
+          "evidence_ids",
+          "pending",
+          "international_transfer",
+          "confidence",
+          "status"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "collection_source": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "purpose": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "controller": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "processor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "proposed_legal_basis": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "storage_location": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "retention": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "deletion_mechanism": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "subjects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "recipients": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "security_measures": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pending": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "international_transfer": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "status": {
+            "enum": [
+              "REQUIRES_HUMAN_REVIEW",
+              "reviewed"
+            ]
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "REQUIRES_HUMAN_REVIEW",
+        "reviewed"
+      ]
+    }
+  }
+}

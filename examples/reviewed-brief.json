@@ -1,0 +1,38 @@
+{
+  "product": "Demo Notes (fictional)",
+  "version": "0.1.0",
+  "updated_at": "2026-11-05",
+  "language": "pt-BR",
+  "identity": {
+    "legal_name": null,
+    "privacy_contact": null
+  },
+  "pending": [
+    "REQUIRES_HUMAN_REVIEW: example only; confirm all actual operations and applicable law."
+  ],
+  "documents": [
+    {
+      "type": "privacy-policy",
+      "title": "Política de Privacidade — exemplo fictício",
+      "applicable": true,
+      "applicability_reason": "Exercício fictício com formulário de contato; confirmar operações reais antes de adaptar.",
+      "sections": [
+        {
+          "heading": "Sobre este rascunho",
+          "body": "Este exemplo mostra o formato de entrada do gerador. Não representa uma empresa ou política aprovada."
+        },
+        {
+          "heading": "Tratamentos a confirmar",
+          "body": "Há um indício de campo de e-mail no código fictício. Finalidade, destinatários, base legal e retenção: REQUIRES_HUMAN_REVIEW."
+        }
+      ],
+      "source_ids": [],
+      "evidence_ids": [
+        "E0001"
+      ],
+      "pending": [
+        "REQUIRES_HUMAN_REVIEW: research current legal sources for the actual project."
+      ]
+    }
+  ]
+}

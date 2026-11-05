@@ -1,0 +1,1 @@
+CREATE TABLE candidate (email TEXT);

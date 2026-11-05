@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generated review draft metadata",
+  "type": "object",
+  "required": [
+    "title",
+    "product",
+    "version",
+    "type",
+    "updated_at",
+    "language",
+    "status",
+    "audience",
+    "source_ids",
+    "evidence_ids",
+    "pending",
+    "publishable"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "product": {
+      "type": "string",
+      "minLength": 1
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": [
+        "terms-of-service",
+        "privacy-policy",
+        "cookie-policy",
+        "ai-policy",
+        "acceptable-use",
+        "data-deletion",
+        "data-processing-agreement",
+        "consent-notice",
+        "incident-response"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date"
+    },
+    "language": {
+      "enum": [
+        "pt-BR",
+        "en",
+        "es"
+      ]
+    },
+    "status": {
+      "const": "draft"
+    },
+    "audience": {
+      "enum": [
+        "internal",
+        "public_draft"
+      ]
+    },
+    "source_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "pending": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "publishable": {
+      "const": false
+    }
+  }
+}

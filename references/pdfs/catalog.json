@@ -1,0 +1,103 @@
+[
+  {
+    "id": "cookies",
+    "file": "anpd-cookies-guide-2022.pdf",
+    "original_filename": "Guia Orientativo Cookies e Proteção de Dados Pessoais.pdf",
+    "title": "ANPD — Cookies e proteção de dados pessoais",
+    "edition": "1.0, October 2022",
+    "pages": 40,
+    "role": "historical_guidance",
+    "publisher": "ANPD",
+    "official_discovery_url": "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes",
+    "origin": "user_supplied_file; exact original download URL not established",
+    "reviewed_at": "2026-11-05",
+    "suggested_physical_pages": [
+      "8-17",
+      "23-36"
+    ],
+    "limitations": "Historical guidance. Page 24 has wording requiring verification against the official corrected edition.",
+    "sha256": "dad0b5e5df838feb733377205040ab93f63f244f90ce487a09cb0618e36e85e8",
+    "license": "Third-party source. Not covered by the package software license; preserve attribution and verify redistribution rights before public distribution."
+  },
+  {
+    "id": "lgpd-senate",
+    "file": "lgpd-senate-june-2024.pdf",
+    "original_filename": "Lei_geral_protecao_dados_pessoais_1ed.pdf",
+    "title": "Senado Federal — Lei Geral de Proteção de Dados Pessoais",
+    "edition": "1st edition, updated through June 2024",
+    "pages": 49,
+    "role": "historical_legislation_compilation",
+    "publisher": "Senado Federal",
+    "official_discovery_url": null,
+    "origin": "user_supplied_file; exact original download URL not established",
+    "reviewed_at": "2026-11-05",
+    "suggested_physical_pages": [
+      "4-5",
+      "8-40"
+    ],
+    "limitations": "Compilation dated June 2024, not proof of current consolidated law. Physical and printed page numbering differ.",
+    "sha256": "0d392a818fc8689867e1c04a511baa037617e9212b433255643885dc32ef62b9",
+    "license": "Third-party source. Not covered by the package software license; preserve attribution and verify redistribution rights before public distribution."
+  },
+  {
+    "id": "defense-terms",
+    "file": "defense-protocol-terms-2023.pdf",
+    "original_filename": "termo-de-uso_protocolar.pdf",
+    "title": "Ministério da Defesa — Protocolar documentos",
+    "edition": "Last updated 2023-08-28",
+    "pages": 11,
+    "role": "institutional_example_not_law",
+    "publisher": "Ministério da Defesa",
+    "official_discovery_url": null,
+    "origin": "user_supplied_file; exact original download URL not established",
+    "reviewed_at": "2026-11-05",
+    "suggested_physical_pages": [
+      "1-6",
+      "7-11"
+    ],
+    "limitations": "Specific public service. Do not reuse public-sector legal basis, contacts, federal venue or categorical transfer/security statements.",
+    "sha256": "6b3ae44ca1f4f259cf4e224f9787e8ec0f84f4d3fdac2fc8886d527889c6263d",
+    "license": "Third-party source. Not covered by the package software license; preserve attribution and verify redistribution rights before public distribution."
+  },
+  {
+    "id": "govbr-terms",
+    "file": "govbr-terms-privacy-2022.pdf",
+    "original_filename": "TERMO_DE_USO_E_POLITICA_DE_PRIVACIDADE.pdf",
+    "title": "Gov.br — Termo de Uso e Política de Privacidade",
+    "edition": "Undated text; PDF metadata created 2022-02-23",
+    "pages": 15,
+    "role": "institutional_example_not_law",
+    "publisher": "Gov.br / Ministério da Economia in the document",
+    "official_discovery_url": null,
+    "origin": "user_supplied_file; exact original download URL not established",
+    "reviewed_at": "2026-11-05",
+    "suggested_physical_pages": [
+      "6-9",
+      "10-15"
+    ],
+    "limitations": "Metadata is not a verified effective date. Historical bodies, named contacts, biometrics and cookie tables apply to that service only.",
+    "sha256": "42c7c1da89996a25ee3fee1940b395dcd755004a78daf193ccf4faaf501d4d1c",
+    "license": "Third-party source. Not covered by the package software license; preserve attribution and verify redistribution rights before public distribution."
+  },
+  {
+    "id": "public-sector",
+    "file": "anpd-public-sector-guide-2023.pdf",
+    "original_filename": "WEB___Guia_ANPD___Tratamento_de_Dados_Pessoais_pelo_Poder_Publico__2_.pdf",
+    "title": "ANPD — Tratamento de dados pessoais pelo Poder Público",
+    "edition": "2.0, June 2023",
+    "pages": 52,
+    "role": "historical_sector_guidance",
+    "publisher": "ANPD",
+    "official_discovery_url": "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes",
+    "origin": "user_supplied_file; exact original download URL not established",
+    "reviewed_at": "2026-11-05",
+    "suggested_physical_pages": [
+      "10-21",
+      "29-35",
+      "49-51"
+    ],
+    "limitations": "Public-sector context; do not transpose state powers or public-policy bases to private companies.",
+    "sha256": "d64398e94a293df12562d2e8d5616f327c79cd55ce82554846a8ddd01cfa5082",
+    "license": "Third-party source. Not covered by the package software license; preserve attribution and verify redistribution rights before public distribution."
+  }
+]
