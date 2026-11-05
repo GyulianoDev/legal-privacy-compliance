@@ -123,7 +123,7 @@ python scripts/verify-consistency.py --profile ../private-scan/project-profile.j
 python scripts/export-documents.py ../private-drafts/privacy-policy.md --format html --out ../privacy-preview.html
 ```
 
-As saídas precisam ser novas. A auditoria retorna `2` com achados `HIGH/CRITICAL`, `0` nos demais resultados e erro em entrada inválida. Zero não certifica conformidade. O gerador sempre mantém `status: draft` e `publishable: false`; não existe atalho para aprovação automática. O exemplo deixa fontes vazias e pendências visíveis de propósito.
+As saídas precisam ser novas. A auditoria retorna `2` com achados `HIGH/CRITICAL`, `0` nos demais resultados e erro em entrada inválida. Zero não certifica conformidade. O gerador sempre mantém `status: draft` e `publishable: false`; não existe atalho para aprovação automática. O exemplo deixa fontes vazias e pendências visíveis de propósito. O brief fictício está em inglês nas duas branches; o idioma dos documentos segue o campo `language` do brief, não a branch.
 
 Os [workflows](workflows/document-generation.md) explicam o brief, a matriz de aplicabilidade, pesquisa, perguntas, revisão e atualização. O agente também entrega relatório interno, fontes datadas, pendências e changelog fundamentado. Procedimento de incidentes é interno.
 
@@ -151,7 +151,7 @@ legal-privacy-compliance/
 └── tests/fixtures/      # dez cenários estáticos
 ```
 
-O repositório mantém `ptbr` como branch padrão e `en` para os READMEs e comentários explicativos em inglês. Os caminhos, a implementação e os PDFs são idênticos nas duas branches. As instruções e referências em português foram solicitadas para esta skill e continuam compartilhadas. A troca de idioma não cria nomes de arquivo diferentes.
+O repositório mantém `ptbr` como branch padrão e `en` com todos os arquivos Markdown e comentários explicativos em inglês, incluindo instruções, templates, referências, workflows e changelog. Os caminhos, a implementação, os exemplos JSON, os metadados de interface e os PDFs são idênticos nas duas branches. Os PDFs preservam o idioma original. A troca de idioma não cria nomes de arquivo diferentes.
 
 ---
 

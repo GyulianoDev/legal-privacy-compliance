@@ -1,6 +1,6 @@
 interface:
   display_name: "Legal Privacy Compliance"
-  short_description: "Termos, privacidade e LGPD com evidências do projeto"
-  default_prompt: "Use $legal-privacy-compliance para analisar este projeto e preparar documentos aplicáveis, fontes e pendências de revisão."
+  short_description: "Terms, privacy and LGPD grounded in project evidence"
+  default_prompt: "Use $legal-privacy-compliance to analyze this project and prepare applicable documents, sources and unresolved review questions."
 policy:
   allow_implicit_invocation: true
